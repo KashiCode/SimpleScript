@@ -15,7 +15,7 @@ Comments: @
 File extension: .ss
 Language description:  simple, imperative, procedural scripting language
 ```
-# Example Code:
+## 🌐 Example Code:
 
 ```
 Value1(Int): 100
