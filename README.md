@@ -16,6 +16,19 @@ File extension: .ss
 Language description:  simple, imperative, procedural scripting language
 ```
 
+## 🌐 Language Example:
+
+```
+Value1(Int): 100
+Value2(String): 'Hello'
+Output{Value1}
+Output{Value1,Value2}
+Output{'this is a test'}
+@ comment
+Output{'enter your age'}
+
+```
+
 ## 🌐 Grammar rules
 
 ```
@@ -35,18 +48,6 @@ digit: [0-9]
 character: any valid character except for single quote
 ```
 
-## 🌐 Example Code:
-
-```
-Value1(Int): 100
-Value2(String): 'Hello'
-Output{Value1}
-Output{Value1,Value2}
-Output{'this is a test'}
-@ comment
-Output{'enter your age'}
-
-```
 ## 📌Lexer output
 
 ```
