@@ -50,13 +50,33 @@ Output{'enter your age'}
 ## 📌Lexer output
 
 ```
-Assignment: Variable = Value1, Value = 100
-Assignment: Variable = Value2, Value = Hello
-Output: Values = Value1 
-Output: Values = Value1 Value2 
-Output: Values = this is a test 
-Comment:  This line is a comment
-Output: Values = enter your age 
+Token: Value1, Type: 0
+Token: Int, Type: 1
+Token: :, Type: 2
+Token: 100, Type: 4
+Token: Value2, Type: 0
+Token: String, Type: 1
+Token: :, Type: 2
+Token: Hello, Type: 3
+Token: Output, Type: 6
+Token: {, Type: 7
+Token: Value1, Type: 0
+Token: }, Type: 8
+Token: Output, Type: 6
+Token: {, Type: 7
+Token: Value1, Type: 0
+Token: Value2, Type: 0
+Token: }, Type: 8
+Token: Output, Type: 6
+Token: {, Type: 7
+Token: this is a test, Type: 3
+Token: }, Type: 8
+Token: @ comment, Type: 5
+Token: Output, Type: 6
+Token: {, Type: 7
+Token: enter your age, Type: 3
+Token: }, Type: 8
+ 
 ```
 
 ## 📌 Parser output
