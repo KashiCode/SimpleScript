@@ -4,8 +4,8 @@ This is an Interpreter built in C for a custom programming language named "Simpl
 
 ## 🌐 Progress:
 
-- Lexical analysis 🟦🟦🟦🟦🟦🟦🟦🟦🟦⬜️ 99%
-- Syntax analysis 🟦⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️ 10%
+- Lexical analysis 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 100%
+- Syntax analysis  🟦🟦🟦🟦🟦🟦🟦🟦⬜️⬜️ 80%
 - Semantic analysis ⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️ 0%
 
 ## 🌐 Language Description 
@@ -15,6 +15,26 @@ Comments: @
 File extension: .ss
 Language description:  simple, imperative, procedural scripting language
 ```
+
+## 🌐 Grammar rules
+
+```
+assignment: <variable> <type> ':' <value>
+output: "Output" '{' (<value> (',' <value>)*)? '}'
+comment: '@' <text>
+variable: <identifier>
+type: "Int" | "String"
+value: <number> | <string_literal>
+identifier: <letter> (<letter> | <digit>)*
+number: <digit>+
+string_literal: "'" <string_content> "'"
+string_content: <character>*
+text: <character>*
+letter: [a-zA-Z]
+digit: [0-9]
+character: any valid character except for single quote
+```
+
 ## 🌐 Example Code:
 
 ```
