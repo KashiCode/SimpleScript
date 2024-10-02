@@ -2,7 +2,7 @@
 
 This is an Interpreter built in C for a custom programming language named "SimpleScript". The Interpreter is designed to recognise variable assignent, integer and string types, comments and output functionality. Future functionality includes simple mathematical statements, user input and functions. 
 
-## 🌐 Progress:
+## 📌 Progress:
 
 - Lexical analysis 🟦🟦🟦🟦🟦🟦🟦🟦🟦🟦 100%
 - Syntax analysis  🟦🟦🟦🟦🟦🟦🟦🟦⬜️⬜️ 80%
