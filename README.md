@@ -47,7 +47,29 @@ Output{'this is a test'}
 Output{'enter your age'}
 
 ```
+## 📌Lexer output
 
+```
+Assignment: Variable = Value1, Value = 100
+Assignment: Variable = Value2, Value = Hello
+Output: Values = Value1 
+Output: Values = Value1 Value2 
+Output: Values = this is a test 
+Comment:  This line is a comment
+Output: Values = enter your age 
+```
+
+## 📌 Parser output
+
+```
+Assignment: Variable = Value1, Value = 100
+Assignment: Variable = Value2, Value = Hello
+Output: Values = Value1 
+Output: Values = Value1 Value2 
+Output: Values = this is a test 
+Comment:  This line is a comment
+Output: Values = enter your age 
+```
 
 # 📝 Contributing
 Your contributions are always welcome. For major revisions, please start by opening an issue to discuss what you'd like to change.
